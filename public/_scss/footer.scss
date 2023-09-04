@@ -1,6 +1,4 @@
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   display: grid;
   justify-content: center;
@@ -8,6 +6,11 @@
   background-color: $gray;
   color: $light;
   padding: 2rem;
+
+  @media #{$medium-up} {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 .contact-list {
