@@ -1,0 +1,19 @@
+<section class="portfolio">
+  <h3 class="portfolio__title">Portfolio</h3>
+  <ul class="portfolio__list">
+    {% for project in site.data.projects %}
+    <li class="portfolio__list-item">
+      <span class="list-item__title">{{ project.name }}</span>
+      <span class="list-item__description">{{ project.description }}</span>
+      {% if project.isExternal %}
+      <a href="{{ project.links }}" target="_blank"
+        >view project <i class="fa-solid fa-arrow-up-right-from-square"></i
+      ></a>
+      {% else %}
+      <a href="{{ project.links }}">view project</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  <h3 class="portfolio__message">More projects coming soon...</h3>
+</section>
