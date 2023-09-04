@@ -59,4 +59,8 @@ ul {
 a {
   color: $accent;
   font-weight: bold;
+
+  &:hover {
+    color: $dark;
+  }
 }

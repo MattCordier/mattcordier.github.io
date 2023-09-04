@@ -41,4 +41,8 @@
 
 .hero-section__description {
   margin-bottom: 0.5rem;
+
+  & > a:hover {
+    color: $gray;
+  }
 }

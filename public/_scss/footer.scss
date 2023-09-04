@@ -11,6 +11,15 @@
     position: absolute;
     bottom: 0;
   }
+
+  i[class^="fa"] {
+    font-size: 2rem;
+    color: $light;
+
+    &:hover {
+      color: $dark;
+    }
+  }
 }
 
 .contact-list {

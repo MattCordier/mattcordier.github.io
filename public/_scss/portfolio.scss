@@ -4,6 +4,12 @@
   @media #{$medium-up} {
     padding: 4rem;
   }
+
+  i[class^="fa"] {
+    color: $accent;
+    font-size: 1rem;
+    margin-left: 0.25rem;
+  }
 }
 
 .portfolio__title {
@@ -33,6 +39,10 @@
   padding: 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+
+  & > a:hover > i {
+    color: $dark;
+  }
 }
 
 .list-item__title {
