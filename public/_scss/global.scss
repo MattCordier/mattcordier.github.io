@@ -11,6 +11,8 @@
   margin: 0;
 }
 body {
+  position: relative;
+  min-height: 100vh;
   background-color: $dark;
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

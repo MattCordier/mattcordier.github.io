@@ -1,0 +1,26 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  background-color: $gray;
+  color: $light;
+  padding: 2rem;
+}
+
+.contact-list {
+  display: flex;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+i[class^="fa"] {
+  font-size: 2rem;
+  color: $light;
+
+  &:hover {
+    color: $dark;
+  }
+}
