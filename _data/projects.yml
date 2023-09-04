@@ -1,0 +1,14 @@
+- name: Wine Wisdom
+  description: Wine education portal built with React and Next.js
+  isExternal: true
+  links: https://few-organization.surge.sh/wine-wisdom/
+
+- name: Step Zero
+  description: Business coaching site and blog built with Webflow
+  isExternal: true
+  links: https://www.stepzerocoaching.com/
+
+- name: Learn to Groove
+  description: My personal drum education site build with Webflow
+  isExternal: true
+  links: https://www.learntogroove.com/
