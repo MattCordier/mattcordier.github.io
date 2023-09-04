@@ -1,0 +1,44 @@
+// Hero Section
+.hero-section {
+  max-width: 44rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  margin: 0 auto 1.5rem;
+
+  @media #{$medium-up} {
+    grid-template-columns: 150px 1fr;
+    gap: 3rem;
+  }
+}
+
+.hero-section__img {
+  max-width: 150px;
+  border-radius: 50%;
+  border: 3px solid $accent;
+  margin: 0 auto;
+}
+
+.hero-section__body {
+  text-align: center;
+
+  @media #{$medium-up} {
+    text-align: left;
+  }
+}
+
+.hero-section__title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+
+  @media #{$medium-up} {
+    font-size: 1.75rem;
+  }
+}
+
+.hero-section__description {
+  margin-bottom: 0.5rem;
+}
